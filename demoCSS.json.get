@@ -1,0 +1,22 @@
+{
+    "body": {
+        "background-color": "#ffffff",
+		"font-family":"'Century Gothic', CenturyGothic, AppleGothic, sans-serif"
+    },
+    "p": {
+        "font-size": "16px",
+        "color": "#000000"
+    },
+    "h1": {
+        "font-size": "32px",
+        "color": "#000000"
+    },
+    "h2": {
+        "font-size": "24px",
+        "color": "#000000"
+    },
+    "h3": {
+        "font-size": "19px",
+        "color": "#000000"
+    }
+}

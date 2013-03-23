@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>liveCSS</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Maynard Russell">
+	<link rel="stylesheet" type="text/css" href="liveCSS.css">
+	<!-- Date: 2013-03-17 -->
+</head>
+<body>
+	<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="liveCSS.js"></script>
+	<div id="demoWrapper" class="rounded">
+		<iframe id="demoCanvas" src="demoTarget.html"></iframe>
+	</div>
+	<div id="cssPanel" class="rounded">
+		<h2>Style Properties</h2>
+		<ul id="tabPanel" class="rounded">
+			<li class="selected">body</li><li>p</li><li>h1</li><li>h2</li><li>h3</li>
+		</ul>
+		<div id="body" class="cssSection" style="display:block;">
+			<table>
+				<tr>
+					<td><h3>Font Family</h3></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<select name="font-family" class="cssProp">
+							<option value="'Century Gothic', CenturyGothic, AppleGothic, sans-serif">Gothic</option>
+							<option value="'Times New Roman', Times, serif">Times New Roman</option>
+							<option value="Arial, Helvetica, sans-serif">Helvetica</option>
+							<option value="'Courier New', Courier, monospace">Courier</option>
+							<option value="'Trebuchet MS', Helvetica, sans-serif">Trebuchet</option>
+							<option value="'Comic Sans MS', cursive, sans-serif">Comic Sans</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><h3>Background</h3></td>
+					<td><input class="cssProp" type="color" name="background-color"/></td>
+				</tr>
+			</table>
+		</div>
+		<div id="p" class="cssSection">
+			<table>
+				<tr>
+					<td><h3>Font Size</h3></td>
+					<td><input class="cssProp" type="number" name="font-size"/></td>
+					<td><span class="units">px</span></td>
+				</tr>
+				<tr>
+					<td><h3>Color</h3></td>
+					<td><input class="cssProp" type="color" name="color"/></td>
+				</tr>
+			</table>
+		</div>
+		<div id="h1" class="cssSection">
+			<table>
+				<tr>
+					<td><h3>Font Size</h3></td>
+					<td><input class="cssProp" type="number" name="font-size"/></td>
+					<td><span class="units">px</span></td>
+				</tr>
+				<tr>
+					<td><h3>Color</h3></td>
+					<td><input class="cssProp" type="color" name="color"/></td>
+				</tr>
+			</table>
+		</div>
+		<div id="h2" class="cssSection">
+			<table>
+				<tr>
+					<td><h3>Font Size</h3></td>
+					<td><input class="cssProp" type="number" name="font-size"/></td>
+					<td><span class="units">px</span></td>
+				</tr>
+				<tr>
+					<td><h3>Color</h3></td>
+					<td><input class="cssProp" type="color" name="color"/></td>
+				</tr>
+			</table>
+		</div>
+		<div id="h3" class="cssSection">
+			<table>
+				<tr>
+					<td><h3>Font Size</h3></td>
+					<td><input class="cssProp" type="number" name="font-size"/></td>
+					<td><span class="units">px</span></td>
+				</tr>
+				<tr>
+					<td><h3>Color</h3></td>
+					<td><input class="cssProp" type="color" name="color"/></td>
+				</tr>
+			</table>
+		</div>
+		<a id="compileTrigger" class="rounded">Compile CSS</a>
+	</div>
+</body>
+</html>
